@@ -5,12 +5,12 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : Jill Naiman 
+title               : Marcus Kornmann
 description         : >-
-                      I am definitely not a corgi!
+                      Pico do Arieiro - Madeira
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          : jnaiman               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : cptk               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -35,12 +35,12 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : A. P. Corgi
-  image             : https://dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg
+  image             : https://serenaslenses.net/wp-content/uploads/2019/06/DSC00388.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
 #  facebook          : your_username
-  github            : jnaiman # JPN
+  github            : cptk # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
