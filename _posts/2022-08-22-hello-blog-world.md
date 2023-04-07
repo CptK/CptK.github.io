@@ -10,7 +10,7 @@ Source: [portfolYOU](https://github.com/YoussefRaafatNasry/portfolYOU)
 
 This is me writing an intro to this blog post.  So introlicioius.
 
-## 1. Here is one thing I want to say
+## 1. Here is one thing I want to say $\sum_{k=1}^Nx^k$
 
 This is maybe an important thing, and, at the very least it is first.
 

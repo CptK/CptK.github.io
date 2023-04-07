@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Exchange Semester at UIUC",
+      "category" : "",
+      "tags"     : "Study",
+      "url"      : "/blog/study-abroad",
+      "date"     : "2023-03-28 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "The Hello World of Blogs",
       "category" : "",
       "tags"     : "Technology, Blogging",

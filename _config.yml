@@ -34,26 +34,25 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
+  name              : M. Kornmann
   image             : https://serenaslenses.net/wp-content/uploads/2019/06/DSC00388.jpg
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : marcusk3@illinois.edu
 #  facebook          : your_username
-  github            : cptk # JPN
+  github            : cptk
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-#  linkedin          : your_username
-#  medium            : your_username
+  linkedin          : marcus-kornmann-071510196
+# medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 #  twitch            : your_username
-  twitter           : your_username
 #  vimeo             : your_username
-  youtube           : your_channel_name
+  youtube           : unknown_traveller
 # keybase           : your_username
 
 
