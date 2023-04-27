@@ -25,7 +25,7 @@ custom_js:
 
 ## Data Quality for Machine Learning
 <p align="justify">Often raw data cannot be directly used for machine learning. It needs to be cleaned and preprocessed. This is because machine learning algorithms are sensitive to missing values, outliers (an outlier is a datapoint that was e.g. generated from erreneous sensors), and other data quality issues. For example, if a dataset contains missing values, the algorithm will not be able to learn from those observations. Similarly, if a dataset contains outliers, the algorithm will be biased towards those observations. Therefore, it is important to clean and preprocess the data before using it for machine learning.</p>
-![Data Quality]({{site.baseurl}}/assets/pngs/IS445_final_project/data_quality.png)
+![Data Quality]({{site.baseurl}}/assets/imgs/IS445_final_project/data_quality.png)
 <p align="center"><a href="https://healthinstitute.illinois.edu/connect/news/berd-tips-dimensions-of-data-quality" style="color:lightgray;test-align:center;font-size:8pt">img source</a></p>
 
 ## Data used for this Article
