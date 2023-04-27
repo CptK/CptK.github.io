@@ -1,9 +1,9 @@
-- name: Adobe Photoshop
+- name: MS Office
   percentage: 95
   level: Expert
-  color: info
+  color: primary
 
-- name: Adobe Illustrator
-  percentage: 90
-  level: Expert
-  color: success
+- name: LaTeX
+  percentage: 75
+  level: Advanced
+  color: primary

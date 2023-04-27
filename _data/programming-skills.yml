@@ -1,14 +1,29 @@
-- name: HTML5/CSS3
+- name: Java
   percentage: 90
   level: Expert
-  color: danger
-
-- name: Go
-  percentage: 5
-  level: Beginner
-  color:
+  color: primary
 
 - name: Python
   percentage: 90
   level: Expert
-  color: secondary
+  color: primary
+
+- name: MySQL
+  percentage: 90
+  level: Expert
+  color: primary
+
+- name: C++, C
+  percentage: 70
+  level: Advanced
+  color: primary
+
+- name: HTML, CSS, JavaScript
+  percentage: 70
+  level: Advanced
+  color: primary
+
+- name: ABAP
+  percentage: 50
+  level: Intermediate
+  color: primary

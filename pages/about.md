@@ -7,12 +7,14 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}**,<br>
-possibly a corgi, most definitely not!  Either way there are really neat things I am up to!
+Hi, I am **{{ site.author.name }}**.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+<div class="col">
+{% include about/skills.html title="Language Skills" source=site.data.language-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+</div>
 </div>
 
 <div class="row">

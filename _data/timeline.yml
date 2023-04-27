@@ -1,27 +1,51 @@
-- title: AMAZING STUFF
-  from: 2019
+- title: Bachelor's Degree, TU Damstadt (Germany), CS
+  from: 2020
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: <p align="justify">I am currently pursuing my Bachelor's degree in Computer Science at TU Damstadt,
+               where I focus on Machine Learning and Data Science. I am also a member of the
+               Sailing Team at TU Damstadt where we build fully autonomous and energy self-sufficient
+               sailboats to compete in competitions and to ultimately cross the Atlantic Ocean.</p>
 
-- title: Student, Harvard CS
-  from: 2013
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Exchange Semester, UIUC (USA), CS
+  from: January 2023
+  to: May 2023
+  description: <p align="justify">During my Bachelor's degree, I spent a semester abroad at the University of 
+               Illinois at Urbana-Champaign. I took courses in Machine Learning and Data Science.</p>
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Internship, Okadis Consulting GmbH, Germany
+  from: November 2022
+  to: December 2022
+  description: <p align="justify">During a two-month internship at Okadis Consulting GmbH, I worked on different software
+               engeneering projects on the SAP platform S4/HANA using SAP's programming language ABAP.</p>
+               <ul align="justify">
+                 <li>Implementation of an application that calculates individual repayment plans for loans 
+                     based on given specifications for the user.</li>
+                 <li>Testing and debugging of an application for transferring SAP namespaces to ensure that 
+                     requirements for reliability and integrity are met.</li>
+                 <li>Conception, implementation, and delivery of an application for automatically setting 
+                     deletion markings for business partners that comply with DSGVO regulations for a credit 
+                     bank, including presentation to the client and coordination of detailed requirements.</li>
+               </ul>
+
+- title: Teaching Assistant, TU Damstadt (Germany), CS
+  from: April 2022
+  to: September 2022
+  description: <p align="justify">During the summer semester 2022 I was a teaching assistant for the course
+               C/C++ Programming Lab. I was responsible for supervising and correcting homeworks, manage the 
+               online forum and revise tasks.</p>
+
+- title: Teaching Assistant, TU Damstadt (Germany), CS
+  from: October 2021
+  to: March 2022
+  description: <p align="justify">During the winter semester 21/22 I was a teaching assistant for the course
+               Digital Technology. I was responsible for leading an exercise group, manage the online forum
+               and correct homework as well as the final exam.</p>
+
+- title: Abitur, Friedrich-Dessauer-Gymnasium, Germany
+  from: 2017
+  to: 2020
+  description: <p align="justify">I graduated from Friedrich-Dessauer-Gymnasium in 2020 with English and 
+               Computer Science as my specalized courses.</p>
+
+
 

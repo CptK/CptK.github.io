@@ -1,0 +1,14 @@
+- name: German
+  percentage: 100
+  level: Native
+  color: primary
+
+- name: English
+  percentage: 100
+  level: Fluent (C1)
+  color: primary
+
+- name: French
+  percentage: 70
+  level: Advanced
+  color: primary
