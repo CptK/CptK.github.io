@@ -260,7 +260,7 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
     <p class="text-center mt-1">Royal Ontario Museum</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_Skyline_night.JPEG" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_Skyline_Night.JPEG" class="mb-1">
     <p class="text-center mt-1">Toronto Skyline at Night</p>
   </div>
 </div>
