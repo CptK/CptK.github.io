@@ -150,7 +150,7 @@ In this report, I want to share my experiences that I gathered during my study a
     <p class="text-center mt-1">Broadway Nashville</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Parthenon_Nashville.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Parthenon_Nashville.JPEG" class="mb-1">
     <p class="text-center mt-1">Parthenon Nashville</p>
   </div>
 </div>
@@ -165,7 +165,7 @@ In this report, I want to share my experiences that I gathered during my study a
     <p class="text-center mt-1">Cataract Falls</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Arch_Rock.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Arch_Rock.JPEG" class="mb-1">
     <p class="text-center mt-1">Arch Rock</p>
   </div>
 </div>
@@ -175,11 +175,11 @@ In this report, I want to share my experiences that I gathered during my study a
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Little_Island.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Little_Island.JPEG" class="mb-1">
     <p class="text-center mt-1">Little Island</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Skyline.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Skyline.JPEG" class="mb-1">
     <p class="text-center mt-1">New York Skyline</p>
   </div>
 </div>
@@ -188,15 +188,15 @@ In this report, I want to share my experiences that I gathered during my study a
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_High_Line.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_High_Line.JPEG" class="mb-1">
     <p class="text-center mt-1">High Line</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Times_Square.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Times_Square.JPEG" class="mb-1">
     <p class="text-center mt-1">Times Square</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Rockefeller.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Rockefeller.JPEG" class="mb-1">
     <p class="text-center mt-1">Rockefeller Center</p>
   </div>
 </div>
@@ -205,15 +205,15 @@ In this report, I want to share my experiences that I gathered during my study a
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_One_World_Tradecenter.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_One_World_Tradecenter.JPEG" class="mb-1">
     <p class="text-center mt-1">One World Trade Center</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Statue_of_Liberty.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Statue_of_Liberty.JPEG" class="mb-1">
     <p class="text-center mt-1">Statue of Liberty</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Brooklyn_Bridge.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NY_Brooklyn_Bridge.JPEG" class="mb-1">
     <p class="text-center mt-1">Brooklyn Bridge</p>
   </div>
 </div>
@@ -224,7 +224,7 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_View_CN_Tower.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_View_CN_Tower.JPEG" class="mb-1">
     <p class="text-center mt-1">View from CN Tower</p>
   </div>
   <div class="col-md-6">
@@ -239,15 +239,15 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Parliament_Hill.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Parliament_Hill.JPEG" class="mb-1">
     <p class="text-center mt-1">Ottawa Parliament Hill</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Centennial_Flame.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Centennial_Flame.JPEG" class="mb-1">
     <p class="text-center mt-1">Ottawa Centennial Flame</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Old_Senate.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Ottawa_Old_Senate.JPEG" class="mb-1">
     <p class="text-center mt-1">Ottawa Old Senate Building</p>
   </div>
 </div>
@@ -256,11 +256,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_ROM.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_ROM.JPEG" class="mb-1">
     <p class="text-center mt-1">Royal Ontario Museum</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_Skyline_night.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Toronto_Skyline_night.JPEG" class="mb-1">
     <p class="text-center mt-1">Toronto Skyline at Night</p>
   </div>
 </div>
@@ -269,11 +269,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-3">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Niagara_Falls1.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Niagara_Falls1.JPEG" class="mb-1">
     <p class="text-center mt-1">Niagara Falls</p>
   </div>
   <div class="col-md-5">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Niagara_Falls2.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Niagara_Falls2.JPEG" class="mb-1">
     <p class="text-center mt-1">Niagara Falls</p>
   </div>
   <div class="col-md-4">
@@ -287,11 +287,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Cleveland_Sign.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Cleveland_Sign.JPEG" class="mb-1">
     <p class="text-center mt-1">Cleveland Sign</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Cleveland_Art_Museum.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Cleveland_Art_Museum.JPEG" class="mb-1">
     <p class="text-center mt-1">Cleveland Museum of Art</p>
   </div>
 </div>
@@ -300,11 +300,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Pittsburgh_Bridge.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Pittsburgh_Bridge.JPEG" class="mb-1">
     <p class="text-center mt-1">Typical Yellow Bridge in Pittsburgh</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Pittsburgh_Top.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Pittsburgh_Top.JPEG" class="mb-1">
     <p class="text-center mt-1">View on Pittsburgh from the Top</p>
   </div>
 </div>
@@ -314,15 +314,15 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_Arch.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_Arch.JPEG" class="mb-1">
     <p class="text-center mt-1">Gateway Arch</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_Arch_Heli_Landing.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_Arch_Heli_Landing.JPEG" class="mb-1">
     <p class="text-center mt-1">Gateway Arch</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_City_Museum.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/StLouis_City_Museum.JPEG" class="mb-1">
     <p class="text-center mt-1">City Museum</p>
   </div>
 </div>
@@ -332,11 +332,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Streetcar.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Streetcar.JPEG" class="mb-1">
     <p class="text-center mt-1">NOLA Streetcar</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Bourbon_Street.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Bourbon_Street.JPEG" class="mb-1">
     <p class="text-center mt-1">Bourbon Street</p>
   </div>
 </div>
@@ -345,15 +345,15 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Alligator.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Alligator.JPEG" class="mb-1">
     <p class="text-center mt-1">Alligator</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Bird.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Bird.JPEG" class="mb-1">
     <p class="text-center mt-1">Warbler</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Alligator_Eyes.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Alligator_Eyes.JPEG" class="mb-1">
     <p class="text-center mt-1">Alligator Eyes</p>
   </div>
 </div>
@@ -362,11 +362,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Swamp.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Swamp.JPEG" class="mb-1">
     <p class="text-center mt-1">Swamp Lands</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Jazz.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/NOLA_Jazz.JPEG" class="mb-1">
     <p class="text-center mt-1">Jazz Club</p>
   </div>
 </div>
@@ -386,7 +386,7 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
     <p class="text-center mt-1">Washington Monument</p>
   </div>
   <div class="col-md-4">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_Capitol.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_Capitol.JPEG" class="mb-1">
     <p class="text-center mt-1">The Capitol</p>
   </div>
 </div>
@@ -395,11 +395,11 @@ Toronto Island is a small island in Lake Ontario which you can reach by ferry, t
 
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_White_House.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_White_House.JPEG" class="mb-1">
     <p class="text-center mt-1">The White House</p>
   </div>
   <div class="col-md-6">
-    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_Library_Congress.jpeg" class="mb-1">
+    <img src="{{site.baseurl}}/assets/imgs/blog/uiuc_2023/Washington_Library_Congress.JPEG" class="mb-1">
     <p class="text-center mt-1">The Library of Congress</p>
   </div>
 </div>
