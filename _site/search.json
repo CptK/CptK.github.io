@@ -3,9 +3,9 @@
     {
       "title"    : "Exchange Semester at UIUC",
       "category" : "",
-      "tags"     : "Study",
+      "tags"     : "Study, Travel",
       "url"      : "/blog/study-abroad",
-      "date"     : "2023-03-28 00:00:00 -0500"
+      "date"     : "2023-03-28 00:00:00 -0800"
     } ,
   
     {
@@ -13,7 +13,7 @@
       "category" : "",
       "tags"     : "Technology, Blogging",
       "url"      : "/blog/hello-blog-world",
-      "date"     : "2022-08-22 00:00:00 -0500"
+      "date"     : "2022-08-22 00:00:00 -0800"
     } 
   
 ]
