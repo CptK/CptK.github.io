@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Projects">
-  <meta property="og:description" content="Pico do Arieiro - Madeira">
-  <meta property="og:image" content="https://serenaslenses.net/wp-content/uploads/2019/06/DSC00388.jpg">
+  <meta property="og:title" content="Semi-automatic Image Annotator">
+  <meta property="og:description" content="Image Annotation Tool with YOLO Bounding Box Suggestions.">
+  <meta property="og:image" content="assets/imgs/project/image_annotator.jpg">
 
-  <title>Projects</title>
-  <meta name="description" content="Pico do Arieiro - Madeira">
+  <title>Semi-automatic Image Annotator</title>
+  <meta name="description" content="Image Annotation Tool with YOLO Bounding Box Suggestions.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -72,59 +72,24 @@
   </div>
 
 </nav>
-    <div class="card-columns m-3 mt-5">
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1 id="semi-automatic-image-annotator">Semi-automatic Image Annotator</h1>
 
-  <!-- Local Projects -->
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/1-image-annotator" class="project card text-themed"><img id="semi-automatic-image-annotator-img" class="card-img-top" src="/assets/imgs/project/image_annotator.jpg" alt="Semi-automatic Image Annotator" /><div class="card-body">
-      <h5 id="semi-automatic-image-annotator-name" class="card-title">Semi-automatic Image Annotator
-      </h5>
-      <p id="semi-automatic-image-annotator-desc" class="card-text">Image Annotation Tool with YOLO Bounding Box Suggestions.</p>
-      <p id="semi-automatic-image-annotator-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span></p>
-    </div>
-  </a>
+<p align="justify">For a future project, I need labeled data for object detection in images. To label this data, I could have
+used a tool like LabelImg, but I decided to write my own tool. First, I wanted to lean how to develop such a
+tool and second, I wanted to integrate a pre-trained model to suggest bounding boxes. This way, I could
+speed up the labeling process. As a pre-trained model, I used the YOLOv8 model from the
+<a href="https://docs.ultralytics.com/">ultralytics</a> framework. In the following video, I show a demonstration of the
+tool on some images from the <a href="https://www.kaggle.com/c/dogs-vs-cats">Dogs vs. Cats</a> dataset. The tool is
+written in Python.</p>
+
+<div class="embed-responsive embed-responsive-16by9 mb-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qjmqN7N2nf4?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=qjmqN7N2nf4" allowfullscreen=""></iframe>
 </div>
 
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/2-is445-assignment10" class="project card text-themed"><img id="is445-assignment-10-img" class="card-img-top" src="/assets/pngs/IS445_assignment10_ufo_sightings_map.png" alt="IS445 Assignment 10" /><div class="card-body">
-      <h5 id="is445-assignment-10-name" class="card-title">IS445 Assignment 10
-      </h5>
-      <p id="is445-assignment-10-desc" class="card-text">This is my submission for IS445 Assignment 10.</p>
-      <p id="is445-assignment-10-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span><span class="badge badge-pill text-primary border border-primary ml-1">Altair</span></p>
-    </div>
-  </a>
+<p>The code for this project can be found in my <a href="https://github.com/CptK/semi-automatic-image-annotation/tree/main">GitHub repository</a>.</p>
+
 </div>
-
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/3-is445-final-project" class="project card text-themed"><img id="data-quality-for-machine-learning-img" class="card-img-top" src="/assets/imgs/IS445_final_project/project_icon.jpg" alt="Data Quality for Machine Learning" /><div class="card-body">
-      <h5 id="data-quality-for-machine-learning-name" class="card-title">Data Quality for Machine Learning
-      </h5>
-      <p id="data-quality-for-machine-learning-desc" class="card-text">Data Quality for Machine Learning using the example of AIS data.</p>
-      <p id="data-quality-for-machine-learning-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">HTML</span><span class="badge badge-pill text-primary border border-primary ml-1">vega-lite</span><span class="badge badge-pill text-primary border border-primary ml-1">Altair</span></p>
-    </div>
-  </a>
-</div>
-
-  <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="/projects/4-traffic-management-system" class="project card text-themed"><img id="visualization-software-for-a-traffic-management-system-img" class="card-img-top" src="/assets/imgs/project/CTMS/Dynamic_TDG.png" alt="Visualization Software for a Traffic Management System" /><div class="card-body">
-      <h5 id="visualization-software-for-a-traffic-management-system-name" class="card-title">Visualization Software for a Traffic Management System
-      </h5>
-      <p id="visualization-software-for-a-traffic-management-system-desc" class="card-text">This project is a visualization software for a traffic management system.</p>
-      <p id="visualization-software-for-a-traffic-management-system-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span></p>
-    </div>
-  </a>
-</div>
-
-  
-
-
-
-
-  <!-- Remote Projects -->
-  
-</div>
-
-
   </main>
   <footer class="mt-auto py-3 text-center">
 
