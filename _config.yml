@@ -7,7 +7,7 @@
 ### Site Settings ###
 title               : Marcus Kornmann
 description         : >-
-                      Pico do Arieiro - Madeira
+                      Portfolio of Marcus Kornmann
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : cptk               # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Marcus Kornmann
-  image             : https://serenaslenses.net/wp-content/uploads/2019/06/DSC00388.jpg
+  image             : https://github.com/CptK/CptK.github.io/blob/main/assets/imgs/profil.jpg
 #  behance           : your_username
 # dribbble          : your_username
   email             : marcusk3@illinois.edu
