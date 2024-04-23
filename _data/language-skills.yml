@@ -12,3 +12,8 @@
   percentage: 70
   level: Advanced
   color: primary
+
+- name: Portuguese
+  percentage: 35
+  level: Basic
+  color: primary
