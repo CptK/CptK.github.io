@@ -9,11 +9,11 @@
   color: primary
 
 - name: French
-  percentage: 70
-  level: Advanced
+  percentage: 60
+  level: Intermediate
   color: primary
 
 - name: Portuguese
-  percentage: 35
+  percentage: 45
   level: Basic
   color: primary

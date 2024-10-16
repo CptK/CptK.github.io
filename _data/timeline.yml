@@ -1,9 +1,41 @@
+- title: Master's Degree in Artificial Intelligence & Machine Learning, TU Damstadt, Germany
+  from: April 2024
+  to: Present
+
+- title: Master's Degree in CS, TU Damstadt, Germany
+  from: April 2024
+  to: Present
+
+- title: Exchange Semester, Aalto University, Finland
+  from: September 2024
+  to: December 2024
+  description: <p align="justify">During my Master's degree, I spent a semester abroad at Aalto University. 
+                I take courses in Machine Learning and Data Science.</p>
+
+- title: Working Student, DATAbility GmbH, Germany
+  from: December 2023
+  to: September 2024
+  description: <p align="justify">As a working student at DATAbility GmbH, I worked on arious data science and
+               machine learning projects.</p>
+               <ul align="justify">
+                 <li>E-Vehicle Charging&#58; Predicted charging curves for EV stations using historical data and 
+                 15-minute interval power consumption.</li>
+                 <li>Anomaly Detection&#58; Developed a statistical model to identify unusual error patterns in
+                 truck production data.</li>
+                 <li>Vehicle Part Recognition&#58; Compared CNNs, ViT, and few-shot learning methods for classifying
+                 similar-looking vehicle parts from images.</li>
+                 <li>Synthetic Data Generation&#58; Created a process to generate coherent, meaningful data using
+                 LLaMA for text fields.</li>
+                 <li>Email Inquiry Analysis&#58; Implemented a RAG system with LlamaIndex to extract relevant
+                 information from stored data for incoming emails.</li>
+               </ul>
+
 - title: Bachelor's Degree in CS, TU Damstadt, Germany
-  from: 2020
-  to: present
-  description: <p align="justify">I am currently pursuing my Bachelor's degree in Computer Science at TU Damstadt,
-               where I focus on Machine Learning and Data Science. I am also a member of the
-               Sailing Team at TU Damstadt where we build fully autonomous and energy self-sufficient
+  from: October 2020
+  to: June 2024
+  description: <p align="justify">I finished my Bachelor's degree in Computer Science at TU Damstadt,
+               with focus on Machine Learning and Data Science. As a member of the
+               Sailing Team at TU Damstadt I also collaborated in building fully autonomous and energy self-sufficient
                sailboats to compete in competitions and to ultimately cross the Atlantic Ocean.</p>
 
 - title: Exchange Semester, UIUC, USA
