@@ -27,6 +27,8 @@ In this report, I will share my experience of studying abroad in Finland at Aalt
     6.4. [Lapland](#64-lapland) <br />
 7. [Useful Apps and Links](#7-useful-apps-and-links)
 
+<p align="justify">Note: This report reflects my personal experiences and recommendations during my exchange semester in 2024. None of the mentioned establishments or links are paid advertisements.</p>
+
 ## 1. Application and Preparation
 <p align="justify">The application process is a two-stage procedure where one first has to apply to TU Darmstadt for one of the exchange spots, and after receiving one, submit an application to the partner university.</p>
 
