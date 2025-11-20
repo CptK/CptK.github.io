@@ -7,6 +7,15 @@
   text-align: justify !important;
 }
 
+/* Make MathJax formulas scrollable on mobile when they overflow */
+.markdown-body .mjx-chtml,
+.markdown-body .MathJax_CHTML {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  max-width: 100% !important;
+  display: inline-block !important;
+}
+
 /* Bootstrap 5 removed card-columns, recreating masonry layout with CSS columns */
 .card-columns {
   column-count: 1;
