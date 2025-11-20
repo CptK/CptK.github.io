@@ -21,7 +21,7 @@
 .nav-item.active {
   font-weight: bold;
 
-  &::after {
+  .nav-link::after {
     @extend .link-after;
     width: 100% !important;
   }
