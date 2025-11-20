@@ -1,20 +1,20 @@
 {%- comment -%} Default Styles {%- endcomment -%}
 {%- assign card_style  = '' -%}
 {%- assign text_style  = 'text-themed' -%}
-{%- assign badge_style = 'badge-dark' -%}
+{%- assign badge_style = 'bg-dark text-white' -%}
 
 {%- comment -%} Update Styles {%- endcomment -%}
 {%- if post.style == 'fill' -%}
   {%- assign card_style = post.color | prepend: 'bg-' -%}
   {%- if post.color != 'light' -%}
     {%- assign text_style  = 'text-white' -%}
-    {%- assign badge_style = 'badge-light text-' -%}
+    {%- assign badge_style = 'bg-light text-' -%}
     {%- assign badge_style = badge_style | append: post.color -%}
   {%- endif -%}
 {%- else -%}
   {%- assign card_style = post.color | prepend: 'border border-' -%}
   {%- if post.color -%}
-    {%- assign badge_style =  post.color | prepend: 'badge-' -%}
+    {%- assign badge_style = post.color | prepend: 'text-bg-' -%}
   {%- endif -%}
 {%- endif -%}
 
@@ -25,7 +25,7 @@
   {%- assign post_url = post.url | relative_url -%}
 {%- endif -%}
     
-<div class="col-lg-6 my-3 wow animated fadeIn" data-wow-delay=".15s">
+<div class="col wow animated fadeIn" data-wow-delay=".15s">
   <a href="{{ post_url }}" class="post card {{ card_style }}" {%- if post.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>
     <div class="card-body {{ text_style }}">
       <h3 class="card-title">{{ post.title }}</h3>
