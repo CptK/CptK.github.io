@@ -10,8 +10,8 @@ custom_js:
 
 <p align="justify">This project aims to develop a two-step system for buoy detection and localization. The first step is to detect buoys in images using a custom fine-tuned YOLOv8 model. The second step is to localize, i.e. get the coordinates of, the detected buoys using triangulation. This model is implemented in a ROS2 node to be used on an autonomous surface vehicle (ASV) for navigation.</p>
 
-<div class="embed-responsive embed-responsive-16by9 mb-3">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u8CjYIhvZoY?si=1xyfrDQ-2PDqW_jA&autoplay=1&mute=1&loop=1&playlist=u8CjYIhvZoY" allowfullscreen allow="autoplay"></iframe>
+<div class="ratio ratio-16x9 mb-3">
+  <iframe src="https://www.youtube.com/embed/u8CjYIhvZoY?si=1xyfrDQ-2PDqW_jA&autoplay=1&mute=1&loop=1&playlist=u8CjYIhvZoY" allowfullscreen allow="autoplay"></iframe>
 </div>
 <p class="text-center">First version of our buoy detection and localization approach. While this initial model laid the groundwork, it wasn't yet consistently confident in detecting buoys in images.</p>
 
