@@ -1,16 +1,34 @@
-- title: Master's Degree in Artificial Intelligence & Machine Learning, TU Damstadt, Germany
+- title: Research Assistant at the Multimodal AI Lab at TU Darmstadt
+  from: March 2025
+  to: Present
+  description: <p align="justify">At the Multimodal AI Lab, I contribute to research projects on automated 
+                fact-checking systems combating misinformation.</p>
+                <ul align="justify">
+                  <li>DEFAME Paper (ICML 2025)&colon; Supported the development of a state-of-the-art multimodal 
+                  fact-checking system by setting up and running experiments, performing failure case analysis, 
+                  and enhancing custom datasets.</li>
+                  <li>Multimodal Fact-Checking Benchmark&colon; Contributing to the development of a new benchmark 
+                  based on real-world claims by building parts of the automated scraping and processing pipeline, 
+                  implementing a human annotation tool, and conducting quality analyses between human and 
+                  automated annotations.</li>
+                </ul>
+
+- title: Master's Degree in Artificial Intelligence & Machine Learning, TU Darmstadt, Germany
   from: October 2024
   to: Present
 
-- title: Master's Degree in CS, TU Damstadt, Germany
-  from: April 2024
+- title: Master's Degree in CS, TU Darmstadt, Germany
+  from: April 202
   to: Present
 
 - title: Exchange Semester, Aalto University, Finland
   from: September 2024
   to: December 2024
-  description: <p align="justify">During my Master's degree, I spent a semester abroad at Aalto University. 
-                I take courses in Machine Learning and Data Science.</p>
+  description: <p align="justify">During my Master's degree, I spent a semester abroad at Aalto University, 
+                  diving into specialized Machine Learning applications across marine, biological, and 
+                  biomedical domains. Beyond technical coursework, I broadened my skill set through the 
+                  entrepreneurship courses Digital Business Management, Starting Up, and Entrepreneurship
+                  Essentials.</p>
 
 - title: Working Student, DATAbility GmbH, Germany
   from: December 2023
@@ -30,12 +48,12 @@
                  information from stored data for incoming emails.</li>
                </ul>
 
-- title: Bachelor's Degree in CS, TU Damstadt, Germany
+- title: Bachelor's Degree in CS, TU Darmstadt, Germany
   from: October 2020
   to: June 2024
-  description: <p align="justify">I finished my Bachelor's degree in Computer Science at TU Damstadt,
+  description: <p align="justify">I finished my Bachelor's degree in Computer Science at TU Darmstadt,
                with focus on Machine Learning and Data Science. As a member of the
-               Sailing Team at TU Damstadt I also collaborated in building fully autonomous and energy self-sufficient
+               Sailing Team at TU Darmstadt I also collaborated in building fully autonomous and energy self-sufficient
                sailboats to compete in competitions and to ultimately cross the Atlantic Ocean.</p>
 
 - title: Exchange Semester, UIUC, USA
@@ -59,14 +77,14 @@
                      bank, including presentation to the client and coordination of detailed requirements.</li>
                </ul>
 
-- title: Teaching Assistant, TU Damstadt, Germany
+- title: Teaching Assistant, TU Darmstadt, Germany
   from: April 2022
   to: September 2022
   description: <p align="justify">During the summer semester 2022 I was a teaching assistant for the course
                C/C++ Programming Lab. I was responsible for supervising and correcting homeworks, manage the 
                online forum and revise tasks.</p>
 
-- title: Teaching Assistant, TU Damstadt, Germany
+- title: Teaching Assistant, TU Darmstadt, Germany
   from: October 2021
   to: March 2022
   description: <p align="justify">During the winter semester 21/22 I was a teaching assistant for the course

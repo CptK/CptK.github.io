@@ -1,17 +1,22 @@
-- name: Java
-  percentage: 90
-  level: Expert
-  color: primary
-
 - name: Python
   percentage: 90
   level: Expert
   color: primary
 
-- name: MySQL
-  percentage: 90
-  level: Expert
+- name: ML Libraries (PyTorch, ...)
+  percentage: 80
+  level: Very Good
   color: primary
+
+- name: Java
+  percentage: 80
+  level: Very Good
+  color: primary
+
+- name: MySQL
+  percentage: 80
+  level: Expert
+  color: Very Good
 
 - name: C++, C
   percentage: 70
