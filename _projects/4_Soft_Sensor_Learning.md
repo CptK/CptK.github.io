@@ -1,5 +1,6 @@
 ---
 name: Soft Sensor Learning with Probabilistic Logic & Reward Prediction
+date: 2024-04-02
 tools: [Python, DeepProbLog]
 image: assets/imgs/project/soft_sensor_learning/Learning_Pipeline.svg
 description: Probabilistic Logic Guided Soft Sensor Learning via Reward Prediction in Markov Decision Processes

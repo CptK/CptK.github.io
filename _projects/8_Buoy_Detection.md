@@ -1,5 +1,6 @@
 ---
 name: Buoy Detection and Localization
+date: 2025-09-13
 tools: [Python]
 image: assets/imgs/project/buoy_detect_localize/buoy_detected_1.png
 description: Building a model that can detect and locate buoys using YOLO and triangulation

@@ -1,5 +1,6 @@
 ---
 name: Semi-automatic Image Annotator
+date: 2024-09-11
 tools: [Python]
 image: assets/imgs/project/image_annotator.png
 description: Image Annotation Tool with YOLO Bounding Box Suggestions.

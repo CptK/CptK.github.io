@@ -1,5 +1,6 @@
 ---
 name: Learning to accurately throw Paper Planes using Reinforcement Learning
+date: 2024-10-22
 tools: [Python]
 image: assets/imgs/project/paper_planes/environment.png
 description: This project uses RL and VAEs for paper plane throwing, improving accuracy by leveraging information from previous throws.

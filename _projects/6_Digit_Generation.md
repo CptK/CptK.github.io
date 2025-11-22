@@ -1,5 +1,6 @@
 ---
 name: Conditional Handwritten Digit Generation
+date: 2024-10-10
 tools: [Python]
 image: assets/imgs/project/digit_generation/vae_generation_32.svg
 description: Investigating Conditional Autoencoders and Conditional Variational Autoencoders for Handwritten Digit Generation.

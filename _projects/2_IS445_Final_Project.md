@@ -1,5 +1,6 @@
 ---
 name: Data Quality for Machine Learning
+date: 2023-05-20
 tools: [Python, HTML, vega-lite, Altair]
 image: assets/imgs/IS445_final_project/project_icon.jpg
 description: Data Quality for Machine Learning using the example of AIS data.
