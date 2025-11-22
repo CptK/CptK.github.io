@@ -1,7 +1,22 @@
+.projects-masonry {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
 .project.card {
   border-radius: $rounded-borders;
   text-decoration: none !important;
-  margin: 10px auto;
+  margin: 0;
+  flex: 0 0 100%;
+
+  @media (min-width: 768px) {
+    flex: 0 0 calc(50% - 0.625rem);
+  }
+
+  @media (min-width: 1200px) {
+    flex: 0 0 calc(33.333% - 0.834rem);
+  }
 
   .card-img-top {
     border-radius: $rounded-borders $rounded-borders 0 0;
