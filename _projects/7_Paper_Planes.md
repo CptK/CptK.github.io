@@ -6,6 +6,9 @@ image: assets/imgs/project/paper_planes/environment.png
 description: This project uses RL and VAEs for paper plane throwing, improving accuracy by leveraging information from previous throws.
 custom_js:
 ---
+<div class="alert alert-warning" role="alert">
+Published at the CoRL 2024 Workshop on Learning Robot Fine and Dexterous Manipulation: Perception and Control. The publication can be found <a href="https://openreview.net/forum?id=VjJhGuxUAw">here</a>.
+</div>
 
 # Learning to accurately throw Paper Planes using Reinforcement Learning
 
