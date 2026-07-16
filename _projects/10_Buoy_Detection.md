@@ -6,6 +6,9 @@ image: assets/imgs/project/buoy_detect_localize/buoy_detected_1.png
 description: Building a model that can detect and locate buoys using YOLO and triangulation
 custom_js:
 ---
+<div class="alert alert-warning" role="alert">
+🏆 This work has been accepted to the technical track of <a href="https://monterey26.oceansconference.org/">OCEANS 2026</a>
+</div>
 
 # Buoy Detection and Localization
 
