@@ -225,7 +225,7 @@ In this report, I will share my experience of studying abroad in Finland at Aalt
 <div class="row flex-md-row flex-column align-center">
   <div class="col-md-6">
     <img src="{{site.baseurl}}/assets/imgs/blog/aalto_2024/porvoo_red_houses.jpeg" class="mb-1">
-    <p class="text-center mt-1">Typical red houses in Provoo</p>
+    <p class="text-center mt-1">Typical red houses in Porvoo</p>
   </div>
   <div class="col-md-6">
     <img src="{{site.baseurl}}/assets/imgs/blog/aalto_2024/porvoo_street.jpeg" class="mb-1">
