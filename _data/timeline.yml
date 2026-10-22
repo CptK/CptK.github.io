@@ -1,16 +1,17 @@
 - title: Research Assistant at the Multimodal AI Lab at TU Darmstadt
   from: March 2025
-  to: Present
+  to: April 2026
   description: <p align="justify">At the Multimodal AI Lab, I contribute to research projects on automated 
                 fact-checking systems combating misinformation.</p>
                 <ul align="justify">
                   <li>DEFAME Paper (ICML 2025)&colon; Supported the development of a state-of-the-art multimodal 
                   fact-checking system by setting up and running experiments, performing failure case analysis, 
                   and enhancing custom datasets.</li>
-                  <li>Multimodal Fact-Checking Benchmark&colon; Contributing to the development of a new benchmark 
-                  based on real-world claims by building parts of the automated scraping and processing pipeline, 
-                  implementing a human annotation tool, and conducting quality analyses between human and 
-                  automated annotations.</li>
+                  <li>VeriTaS Paper (ACL 2026, Best Resource Paper Award)&colon; First dynamic benchmark for
+                  automated fact-checking systems based on real-world claims. I was involved by building
+                  parts of the automated scraping and processing pipeline, implementing a human annotation tool,
+                  conducting quality analyses between human and automated annotations and setting up and
+                  executing baseline experiments.</li>
                 </ul>
 
 - title: Master's Degree in Artificial Intelligence & Machine Learning, TU Darmstadt, Germany
