@@ -1,0 +1,35 @@
+- title: "VeriTaS: The First Dynamic Benchmark for Multimodal Automated Fact-Checking"
+  authors: Mark Rothermel, Marcus Kornmann, Marcus Rohrbach, Anna Rohrbach
+  venue: Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)
+  year: 2026
+  award: Best Resource Paper Award
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2026.acl-long.1948/
+    - name: arXiv
+      url: https://arxiv.org/abs/2601.08611
+    - name: Dataset & Code
+      url: https://veritas.mai.informatik.tu-darmstadt.de/
+    - name: Project
+      url: /projects/12-veritas
+
+- title: "Vision-Based Buoy Localization for Autonomous Surface Vehicles Using Triangulation and Clustering"
+  authors: Marcus Kornmann
+  venue: OCEANS 2026 Monterey, Technical Track
+  year: 2026
+  note: Presented; IEEE proceedings forthcoming
+  links:
+    - name: Conference
+      url: https://monterey26.oceansconference.org/
+    - name: Project
+      url: /projects/11-buoy-detection
+
+- title: "Learning to Accurately Throw Paper Planes"
+  authors: Marcus Kornmann, Qimeng He, Alap Kshirsagar, Kai Ploeger, Jan Peters
+  venue: "CoRL Workshop on Learning Robot Fine and Dexterous Manipulation: Perception and Control"
+  year: 2024
+  links:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=VjJhGuxUAw
+    - name: Project
+      url: /projects/7-paper-planes
