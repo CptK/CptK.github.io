@@ -12,7 +12,7 @@ description: "Can an off-the-shelf multimodal LLM sail a boat around an island f
 
 ## Why I tried this
 
-My long-term goal is a sailboat you can talk to: "round the orange buoys twice, then pass between the yellow ones". Robotics research calls models that turn camera images and language into actions *vision-language-action models* (VLAs), and training one is a serious project. Before starting it, I wanted a cheap baseline: what happens if I simply give a large multimodal model — Claude, via its API — what the boat sees and ask it where to steer?
+My long-term goal is a sailboat you can talk to: "round the orange buoys twice, then pass between the yellow ones". Robotics research calls models that turn camera images and language into actions *vision-language-action models* (VLAs), and training one is a serious project. Before starting it, I wanted a cheap baseline: what happens if I simply give a large multimodal model (in this case Claude) what the boat sees and ask it where to steer?
 
 ## The setup
 
@@ -25,7 +25,7 @@ Every two seconds of simulated time, the model gets:
 - **instruments** in text: heading, speed, wind, the range of headings that cannot be sailed, and the point of sail,
 - **the task** in plain English, its own last few decisions, and a running progress note it wrote itself.
 
-It answers with a short observation, an estimate of how far the nearest land ahead is, a course change in degrees, and whether the task is done. My autopilot then holds that course until the next decision. The simulation waits while the model thinks, so slow and fast models are compared fairly.
+It answers with a short observation, an estimate of how far the nearest land ahead is, a course change in degrees, and whether the task is done. My autopilot then holds that course until the next decision. The simulation waits while the model thinks, so slow and fast models are compared fairly. (What happens when it doesn't wait is the topic of the [last section](#when-the-world-doesnt-wait).)
 
 ![What the model sees: the onboard camera with bearing scale and distance marks and the chart at the same moment: the yellow course line runs towards the west shore]({{site.baseurl}}/assets/imgs/blog/llm_steering_sailboat_2026/model-inputs.png)
 *The model's input at one decision. Its answer: "Open water ahead, but the outer west shore is now about 20 m off along my 225° course (camera and chart agree), so it is time to tack."*
@@ -48,11 +48,11 @@ Then the task I actually care about, one sentence with several steps:
 > the shore on your right side so that you are between the shore and the island,
 > pass the blue buoy, then pass the green buoy and end between the yellow buoys.
 
-This needs everything at once: understanding the instruction, keeping track of progress over several minutes, reading the shore, and sailing upwind — which means tacking, because a sailboat cannot point closer than about 45° to the wind.
+This needs everything at once: understanding the instruction, keeping track of progress over several minutes, reading the shore, and sailing upwind (which means tacking, because a sailboat cannot point closer than about 45° to the wind).
 
 It took many attempts. The failures fell into a few groups:
 
-**Judging distance to land.** The banks are low and green; at 5 m and at 50 m they look much the same. I logged the true distance next to the model's own estimate: in one run, land 10–20 m ahead was rated "over 50 m" in 16 of 17 decisions, and land 20–50 m ahead was rated "over 50 m" or "no land" in 40 of 47. Up close the estimates were good — but by then it is too late to turn.
+**Judging distance to land.** The banks are low and green; at 5 m and at 50 m they look much the same. I logged the true distance next to the model's own estimate: in one run, land 10–20 m ahead was rated "over 50 m" in 16 of 17 decisions, and land 20–50 m ahead was rated "over 50 m" or "no land" in 40 of 47. Up close the estimates were good, but by then it is too late to turn.
 
 **Spatial reasoning.** The model sees the world from the boat: left, right, ahead. Many instructions are about the map: north, south, behind. Translating between the two went wrong in three ways:
 - *Through the island.* The island is low, so buoys on its far side are visible over the land. Models steered straight at them, as if the island were not there.
@@ -106,8 +106,31 @@ Claude Sonnet 5.5 came close in several runs with the full lap in the right orde
 | Claude Sonnet 5.5 | 2–3 s | $1.40–2.50 per lap | nearly completes the course |
 | Claude Opus 5.5 | about 8 s | $2.50–3.60 per lap | completed the full course |
 
-## So — can an LLM sail?
+These costs are from before I turned on prompt caching. The rules part of the prompt is the same for every decision, so the API can now reuse it at a tenth of the price or less; that cuts the cost per decision by about 40%.
 
-Somewhat. A model like this reaches goals and plans sensibly at a coarse level. Its notes are often better than its steering. Stronger models do clearly better. But it only works with carefully designed inputs, and long tasks fail on a single lapse — one misjudged shore at the wrong moment. My results are also based on a handful of runs per variant, so they show tendencies, not success rates.
+## When the world doesn't wait
+
+Everything so far ran with the simulation paused while the model thinks. A real boat doesn't pause. So I let the simulation run on in real time: the model gets a picture, the boat keeps sailing on its last course while the model thinks, and the answer is acted on whenever it arrives, by which time the picture is already a few seconds old. At about 2 m/s, every second of thinking is two metres of water.
+
+| Around the island, in real time | Time per decision | Boat moved before the answer took effect | Result |
+|---|---|---|---|
+| Claude Sonnet 5.5 | 2.9 s | 4 m | 353° of the lap, stopped 6 m short of the gate, never stuck |
+| Claude Opus 5.5 | 10.5 s | 18 m | aground after 50 s |
+| Claude Opus 5.5, second run | 9.4 s | 15 m | aground after about 170 s, two thirds of the way round |
+| Claude Opus 5.5, low effort | 4.0 s | 6 m | aground after about 170 s, at the same spot |
+
+**Sonnet hardly noticed.** Its lap was as good as its best paused runs, and it again declared the task done just before the gate. The delay mattered once: at a corner of the island it rated land 8 m ahead as "20–50 m", its corrections arrived 4 m late, and the boat brushed the corner before sailing on. For single targets, Haiku (with thinking turned off, about 1 s per answer) reached the green buoy in real time too.
+
+**Opus ran aground every time.** The model that sailed the full lap when the world waited for it did not get round once. In the first run its last decision was right: "the east shore lies about 15–20 m ahead … so turn north". But the answer took 10.6 s, and the boat hit the bank about four seconds before the turn arrived. In the second run it rated the shore 27 m ahead as "over 50 m"; that answer took 14.6 s, and the corrected course arrived after the boat had already hit the shore.
+
+**Faster alone doesn't help.** With low effort, Opus answered in 4 s, almost as fast as Sonnet, and got through the east channel cleanly. But then it twice described the north shore as "angling closer" and "angling in", still rated it "over 50 m" and held its course. By the time it started to turn away, the shore was 4 m ahead. And as the scene got difficult its answers slowed down again, to 8–10 s, exactly when it could least afford it.
+
+The weakness is the same one as before: misjudging land at 10–50 m. With the simulation paused, the next decision came two seconds later and could fix the mistake. In real time a single misjudged view near the shore uses up the whole margin, whether the answer comes late or is careless. These are single runs per variant again, but three Opus runs, three groundings, and always the same mechanism.
+
+**A nice side effect: it got cheaper.** With caching, and with fewer decisions because each one takes longer, Sonnet's lap cost $0.50 instead of $1.37.
+
+## So: can an LLM sail?
+
+Somewhat. A model like this reaches goals and plans sensibly at a coarse level. Its notes are often better than its steering. Stronger models do clearly better. But it only works with carefully designed inputs, and long tasks fail on a single lapse — one misjudged shore at the wrong moment. In real time that lapse comes faster: the slowest model, the only one that completed the course, ran aground in all three attempts once the world stopped waiting for it. My results are also based on a handful of runs per variant, so they show tendencies, not success rates.
 
 The simulator and the LLM pilot are on GitHub: [CptK/sailboat-simulator](https://github.com/CptK/sailboat-simulator).
