@@ -127,7 +127,7 @@ Everything so far ran with the simulation paused while the model thinks. A real 
 
 The weakness is the same one as before: misjudging land at 10–50 m. With the simulation paused, the next decision came two seconds later and could fix the mistake. In real time a single misjudged view near the shore uses up the whole margin, whether the answer comes late or is careless. These are single runs per variant again, but three Opus runs, three groundings, and always the same mechanism.
 
-**A nice side effect: it got cheaper.** With caching, and with fewer decisions because each one takes longer, Sonnet's lap cost \$0.50 instead of \$1.37.
+**A nice side effect: it got cheaper.** With caching, and with fewer decisions because each one takes longer, Sonnet's lap cost \\$0.50 instead of \\$1.37.
 
 ## So: can an LLM sail?
 
